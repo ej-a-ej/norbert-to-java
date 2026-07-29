@@ -28,8 +28,16 @@ C'est pourquoi ce dépôt existe. Pour que des codeurs passionnés prennent le r
 
 Si vous lisez ces lignes, que vous aimez Java, la pédagogie, ou les projets qui ont du sens : bienvenue.
 
-Lya vous attend. 🤝
+Lya vous attend. 🤝 
 
+
+My Other Books
+Discover my other works on my author page :
+Mes autres livres
+Découvrez mes autres ouvrages sur ma page auteur :
+我的其他书籍
+在我的作者页面上发现我的其他作品：
+https://www.amazon.fr/stores/A.-E.J/author/B0H7WKLCR4/allbooks?language=en&ref=sr_ntt_srch_lnk_1&qid=1785349124&sr=1-1&shoppingPortalEnabled=true
 ---
 
 ## 📂 Structure du dépôt
