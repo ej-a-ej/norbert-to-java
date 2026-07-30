@@ -1,139 +1,185 @@
-# Norbert to Java
+Norbert to Java
+Learn Java by building a real assistant, step by step.
 
-## 📚 Le livre / The book / 本书
+Français : Norbert to Java — Apprendre Java en construisant un assistant pas à pas
+English : Norbert Codes Java — Learning Java Step by Step
+中文：诺伯特编写Java — 一步一步学习Java
 
-**Français :** Norbert to Java — Apprendre Java en construisant un assistant pas à pas  
-**English :** Norbert Codes Java — Learning Java Step by Step  
-**中文 :** 诺伯特编写Java — 一步一步学习Java
+[Amazon KDP link]
 
-[Lien Amazon KDP]
+About the project
+Norbert to Java is both a book and an open learning project built around a simple idea: Java becomes easier to learn when each concept is tied to something concrete.
+github
++1
 
----
+Instead of moving through isolated syntax and abstract definitions, the project follows a progression centered on Norbert and Lya, an assistant that grows chapter after chapter.
+github
 
-## 🎯 L'histoire de ce projet
+The goal is not only to explain Java, but to make it learnable through construction, experimentation, mistakes, corrections, and iteration.
+github
++1
 
-Ce projet est né d'une observation simple : l'enseignement du code n'a pas beaucoup changé en 30 ans.
+This project is intentionally human in tone, open in structure, and practical in spirit. It invites readers, teachers, self-learners, and developers to improve both the pedagogy and the technical foundations over time.
+github
++1
 
-À l'époque où j'étais au lycée, j'ai appris quelques bases de programmation. Puis j'ai fait autre chose. Pendant trois décennies, j'ai regardé les méthodes pédagogiques évoluer... ou plutôt, ne pas évoluer.
+Why this exists
+Many programming resources explain concepts correctly but still leave beginners alone in front of complexity. This project takes a different path: story, structure, continuity, and a real build process.
+dev
++1
 
-J'ai d'abord développé Lya pour un autre projet : démocratiser la Médecine Traditionnelle Chinoise (MTC) à travers des romans. L'idée était de créer un assistant qui accompagne le lecteur. Mais en construisant Lya, j'ai réalisé qu'elle était bien plus que ça.
+That also means the repository is designed as a bridge between pedagogy and implementation. The educational direction remains central, while the technical side is meant to evolve with contributions from experienced developers who want to strengthen, host, extend, or maintain the codebase.
+github
++1
 
-Lya est devenue un outil de formation, de pédagogie, de logistique. Elle montre qu'on peut apprendre Java en construisant un projet réel, pas en lisant des manuels secs.
+The public entry point remains this project space, while long-term technical stewardship can be shared with maintainers who want to carry the implementation further. That makes it possible to keep the project open and stable while preserving focus on writing, explanation, and new educational work.
 
-**Mais il y a un problème : je ne suis pas développeur.**
+What you will find here
+A book-driven path to learning Java.
 
-J'ai les idées. J'ai la pédagogie. J'ai la structure. Mais pour que Lya devienne vraiment solide, pour que le code soit propre, pour que ce projet vive, j'ai besoin de vrais développeurs.
+Code organized by chapter.
 
-C'est pourquoi ce dépôt existe. Pour que des codeurs passionnés prennent le relais, améliorent, corrigent, et fassent vivre Lya avec la communauté.
+Exercises and corrected solutions.
 
-Si vous lisez ces lignes, que vous aimez Java, la pédagogie, ou les projets qui ont du sens : bienvenue.
+A project framework that can grow from beginner examples to a more robust implementation.
 
-Lya vous attend. 🤝 
+An open invitation to improve the project collaboratively.
+github
++1
 
-
-My Other Books
-Discover my other works on my author page :
-Mes autres livres
-Découvrez mes autres ouvrages sur ma page auteur :
-我的其他书籍
-在我的作者页面上发现我的其他作品：
-https://www.amazon.fr/stores/A.-E.J/author/B0H7WKLCR4/allbooks?language=en&ref=sr_ntt_srch_lnk_1&qid=1785349124&sr=1-1&shoppingPortalEnabled=true
----
-
-## 📂 Structure du dépôt
-
-norbert-to-java/
-├── README.md # Cette page
-├── livre-complet.md # Le livre complet en une page
-├── CONTRIBUTING.md # Guide pour les contributeurs
-├── LICENSE # Licence MIT
-├── code/ # Code source par chapitre
-│ ├── chapitre1/
-│ ├── chapitre2/
-│ └── ...
-└── solutions/ # Solutions des exercices
-└── corriges.md
-
+Repository structure
 text
 
----
+norbert-to-java/
+├── README.md
+├── livre-complet.md
+├── CONTRIBUTING.md
+├── LICENSE
+├── code/
+│   ├── chapitre1/
+│   ├── chapitre2/
+│   └── ...
+└── solutions/
+    └── corriges.md
+Who this is for
+Complete beginners in programming.
 
-## 🚀 Comment utiliser ce dépôt
+Self-learners who want to learn by building.
 
-### Pour les lecteurs du livre
+Teachers looking for a clearer progression.
 
-1. Clonez le dépôt : 
-   ```bash
-   git clone https://github.com/ej-a-ej/norbert-to-java.git
-Ouvrez le code dans votre IDE (IntelliJ, Eclipse, VS Code)
+Developers interested in improving an educational open project.
 
-Suivez le livre chapitre par chapitre
+Readers who prefer concrete, narrative learning over dry manuals.
 
-Exécutez les exemples et expérimentez
+What the book covers
+Java fundamentals: variables, conditions, loops, methods.
 
-Pour les développeurs qui veulent contribuer
-👉 Lisez le guide de contribution
+Object-oriented programming.
 
-📖 À propos du livre
-Norbert veut construire un assistant. Il ne connaît rien à la programmation.
+Collections such as ArrayList, HashMap, and HashSet.
 
-Ce livre suit son voyage, chapitre après chapitre, de la première ligne de code à une application complète avec serveur web, sécurité et API.
+Exceptions and error handling.
 
-Ce que vous allez apprendre :
+Files and persistence.
 
-Les bases de Java (variables, conditions, boucles, méthodes)
+Web servers and REST APIs.
 
-La programmation orientée objet
+Sessions and basic security concepts.
 
-Les collections (ArrayList, HashMap, HashSet)
+Git, Maven, Docker, and JUnit.
 
-La gestion des exceptions
+How to use this repository
+For readers
+Clone the repository.
 
-Les fichiers et la persistance
+Open the code in your preferred IDE.
 
-Les serveurs web et les API REST
+Follow the book chapter by chapter.
 
-Les sessions et la sécurité
+Run the examples.
 
-Git, Maven, Docker, JUnit
+Change the code, test it, and observe what happens.
 
-Et bien plus !
+bash
 
-Public visé :
+git clone https://github.com/ej-a-ej/norbert-to-java.git
+For contributors
+Contributions are welcome in several forms:
 
-Débutants complets en programmation
+Code cleanup and refactoring.
 
-Auto-didactes qui veulent apprendre en pratiquant
+Bug fixes.
 
-Enseignants qui cherchent une progression claire
+Better examples.
 
-🤝 Contribuer
-Des erreurs dans le code ? Une amélioration à proposer ?
+Pedagogical improvements.
 
-Forkez le projet
+Documentation improvements.
 
-Créez une branche (git checkout -b correction-typo)
+Translations.
 
-Commitez vos changements (git commit -m "Correction d'une typo")
+Repository organization.
 
-Poussez (git push origin correction-typo)
+Hosting, deployment, and long-term technical maintenance.
 
-Ouvrez une Pull Request
+Please read CONTRIBUTING.md before opening a pull request.
+github
 
-👉 Consultez le guide de contribution pour plus de détails.
+Contribution model
+This repository is open to contributors who want to improve the project, but it is also open to a deeper form of collaboration: experienced developers who may want to help structure, host, or technically maintain the implementation over time.
 
-📄 Licence
-Ce projet est sous licence MIT — vous pouvez l'utiliser, le modifier et le partager librement.
+The project’s strength comes from making complex ideas understandable. In that sense, beginner-friendly explanation is not a limitation here; it is part of the design. The technical implementation can become stronger through collaboration, while the educational voice remains simple, direct, and accessible.
 
-👤 Auteur
-E.J.A. — Auteur de Norbert to Java
+In short:
 
-Je suis auteur, pas développeur. Ce projet est né d'une envie pédagogique, pas technique. Si vous voulez faire vivre Lya, vous êtes les bienvenus.
+the project stays open;
 
-⭐ Soutenez le projet
-Si ce livre vous a aidé, laissez une étoile ⭐ sur GitHub et partagez-le autour de vous !
+the educational direction stays clear;
 
-© 2026  E.J.A. — Tous droits réservés.
+the technical side can be delegated, reinforced, or co-maintained;
 
+the goal is to help Lya grow without losing the clarity that made the project useful in the first place.
 
+Contributing
+If you spot a bug, a weak explanation, a confusing example, or an architectural improvement, contributions are welcome.
 
+Fork the project.
+
+Create a branch.
+
+Make your changes.
+
+Commit your work.
+
+Open a pull request.
+
+Example:
+
+bash
+
+git checkout -b improve-chapter-3
+git commit -m "Improve condition example in chapter 3"
+git push origin improve-chapter-3
+License
+This repository includes an MIT license file, which is a common open-source license that allows reuse, modification, and redistribution under its terms.
+github
++1
+
+Author page
+Other books and related work can be found on the author page:
+https://www.amazon.fr/stores/A.-E.J/author/B0H7WKLCR4/allbooks?language=en&ref=sr_ntt_srch_lnk_1&qid=1785349124&sr=1-1&shoppingPortalEnabled=true
+
+Support the project
+If this project helps you, you can support it by:
+
+starring the repository;
+
+sharing it with others;
+
+suggesting improvements;
+
+contributing code, explanations, fixes, or translations.
+
+Final note
+Norbert to Java is not just a programming book. It is a learning path, a build path, and an open invitation to make technical knowledge more understandable, more collaborative, and more alive.
