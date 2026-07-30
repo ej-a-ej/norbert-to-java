@@ -3,52 +3,45 @@
 **Learn Java by building a real assistant, step by step.**
 
 ---
-
-**Français** : Norbert to Java — Apprendre Java en construisant un assistant pas à pas  
 **English** : Norbert Codes Java — Learning Java Step by Step  
-**中文** : 诺伯特编写Java — 一步一步学习Java
+**中文** : 诺伯特编写Java — 一步一步学习Java  
+**Français** : Norbert to Java — Apprendre Java en construisant un assistant pas à pas  
+**العربية** : نوربرت يكتب جافا — تعلم جافا خطوة بخطوة  
+**Português** : Norbert Codifica Java — Aprendendo Java Passo a Passo  
+**Español** : Norbert Codifica Java — Aprendiendo Java Paso a Paso  
+**Deutsch** : Norbert codet Java — Java Schritt für Schritt lernen  
+**Türkçe** : Norbert Java Kodluyor — Adım Adım Java Öğrenimi
 
-[![Amazon KDP](https://img.shields.io/badge/Amazon-KDP-orange)](https://www.amazon.fr/stores/A.-E.J/author/B0H7WKLCR4/allbooks?language=en&ref=sr_ntt_srch_lnk_1&qid=1785349124&sr=1-1&shoppingPortalEnabled=true)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
 ---
 
 ## About the project
 
-Norbert to Java is both a book and an open learning project built around a simple idea: **Java becomes easier to learn when each concept is tied to something concrete.**
+Norbert to Java is a living book and an open project built around a simple idea: **Java is easier to learn when each concept is connected to something concrete**.
 
-Instead of moving through isolated syntax and abstract definitions, the project follows a progression centered on **Norbert and Lya**, an assistant that grows chapter after chapter.
+Instead of stacking abstract concepts, the project follows **Norbert and Lya**, an assistant that grows chapter by chapter.
 
-The goal is not only to explain Java, but to make it learnable through **construction, experimentation, mistakes, corrections, and iteration**.
+The goal is not just to explain Java. The goal is to make it **learnable through building, experimenting, making mistakes, correcting, and iterating**.
 
-This project is intentionally **human in tone**, **open in structure**, and **practical in spirit**. It invites readers, teachers, self-learners, and developers to improve both the pedagogy and the technical foundations over time.
+The project remains **human in tone**, **open in structure**, and **practical in spirit**. It invites readers, teachers, self-learners, and developers to improve it over time.
 
 ---
 
-## Why this exists
+## Why this project exists
 
-Many programming resources explain concepts correctly but still leave beginners alone in front of complexity. This project takes a different path: **story, structure, continuity, and a real build process**.
+The project finds its origin in an effort to make Traditional Chinese Medicine more accessible.
 
-That also means the repository is designed as a **bridge between pedagogy and implementation**. The educational direction remains central, while the technical side is meant to evolve with contributions from experienced developers who want to strengthen, host, extend, or maintain the codebase.
+From that need were born **Lya's notebooks**, with their different reading levels and adaptations to contexts and languages, then **the Lya system**, conceived in the creation of an innovative website, and finally **Norbert to Java**, born from the difficulties encountered while learning programming.
 
-The public entry point remains this project space, while long-term technical stewardship can be shared with maintainers who want to carry the implementation further. That makes it possible to keep the project open and stable while preserving focus on writing, explanation, and new educational work.
-
-### A word about the author
-
-This project was born from a background in **vulgarization and teaching**, not from a traditional engineering path. That's precisely the strength here: the ability to transform complexity into something accessible, understandable, and even enjoyable.
-
-The technical side is intentionally left open to collaboration. If you're an experienced developer interested in hosting, structuring, or co-maintaining the codebase, you're welcome to step in. The author focuses on **pedagogy, writing, and new educational projects**, while the technical implementation can grow through community contributions.
-
-> *"I may not be the best coder in the world — but I know how to explain what good code is for."*
+The complexity of the initial subject — TCM — acted almost as a **founding accident**: it gave rise to a more vivid, more progressive, more accessible method, and probably much more besides.
 
 ---
 
 ## What you will find here
 
-- A **book-driven path** to learning Java
+- A **book-guided path** to learn Java
 - **Code organized by chapter**
-- **Exercises and corrected solutions**
+- **Exercises and solutions**
 - A project framework that can grow from beginner examples to a more robust implementation
 - An **open invitation** to improve the project collaboratively
 
@@ -63,11 +56,11 @@ norbert-to-java/
 ├── CONTRIBUTING.md
 ├── LICENSE
 ├── code/
-│   ├── chapitre1/
-│   ├── chapitre2/
+│   ├── chapter1/
+│   ├── chapter2/
 │   └── ...
 └── solutions/
-    └── corriges.md
+    └── corrections.md
 ```
 
 ---
@@ -75,9 +68,9 @@ norbert-to-java/
 ## Who this is for
 
 - **Complete beginners** in programming
-- **Self-learners** who want to learn by building
-- **Teachers** looking for a clearer progression
-- **Developers** interested in improving an educational open project
+- **Self-learners** who want to learn by doing
+- **Teachers** looking for a clear progression
+- **Developers** interested in improving an open educational project
 - Readers who prefer **concrete, narrative learning** over dry manuals
 
 ---
@@ -111,54 +104,46 @@ norbert-to-java/
 git clone https://github.com/ej-a-ej/norbert-to-java.git
 ```
 
-### For contributors
-
-Contributions are welcome in several forms:
-
-- Code cleanup and refactoring
-- Bug fixes
-- Better examples
-- Pedagogical improvements
-- Documentation improvements
-- Translations
-- Repository organization
-- **Hosting, deployment, and long-term technical maintenance**
-
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request.
-
 ---
 
-## Contribution model
+## Collaboration model
 
-This repository is open to contributors who want to improve the project, but it is also open to a **deeper form of collaboration**: experienced developers who may want to help **structure, host, or technically maintain** the implementation over time.
+This project is designed to be **technically delegated**.
 
-The project's strength comes from making complex ideas understandable. In that sense, beginner-friendly explanation is not a limitation here; it is part of the design. The technical implementation can become stronger through collaboration, while the educational voice remains simple, direct, and accessible.
+The author focuses on **pedagogy, writing, and making complex ideas accessible** — that's where the energy and expertise lie. The technical side (hosting, code structure, maintenance, evolution) is open to experienced developers who want to take over.
 
-**In short:**
+**In practice:**
 
-- ✅ The project stays open
-- ✅ The educational direction stays clear
-- ✅ The technical side can be delegated, reinforced, or co-maintained
-- ✅ The goal is to help Lya grow without losing the clarity that made the project useful in the first place
+- The project remains accessible through this repository
+- Readers come through this entry point
+- Technical maintenance can be handled by one or more skilled developers
+- The author keeps the editorial and educational direction
+
+If you're a developer and this project interests you, you're invited to offer your help on the technical side.
 
 ---
 
 ## Contributing
 
-If you spot a bug, a weak explanation, a confusing example, or an architectural improvement, contributions are welcome.
+Contributions are welcome, particularly on:
+
+- Code correction and improvement
+- Technical optimization and structuring
+- Hosting and deployment
+- Translations
+- Pedagogical improvements
+
+If you spot a bug or an unclear explanation, feel free to open an issue or a pull request.
 
 1. Fork the project
 2. Create a branch
 3. Make your changes
-4. Commit your work
-5. Open a pull request
-
-**Example:**
+4. Open a pull request
 
 ```bash
-git checkout -b improve-chapter-3
-git commit -m "Improve condition example in chapter 3"
-git push origin improve-chapter-3
+git checkout -b technical-improvement
+git commit -m "Improve code structure"
+git push origin technical-improvement
 ```
 
 ---
@@ -171,9 +156,7 @@ This repository is under the **MIT License**, which allows reuse, modification, 
 
 ## Author page
 
-Other books and related work can be found on the author page:
-
-[📚 A. E.J on Amazon](https://www.amazon.fr/stores/A.-E.J/author/B0H7WKLCR4/allbooks?language=en&ref=sr_ntt_srch_lnk_1&qid=1785349124&sr=1-1&shoppingPortalEnabled=true)
+[📚 A. E.J on Amazon](https://www.amazon.fr/stores/A.-E.J/author/B0H7WKLCR4/allbooks?language=en&ref=sr_ntt_srch_lnk_2&qid=1785449128&sr=1-2&shoppingPortalEnabled=true)
 
 ---
 
@@ -184,19 +167,16 @@ If this project helps you, you can support it by:
 - ⭐ Starring the repository
 - 🔗 Sharing it with others
 - 💡 Suggesting improvements
-- 🛠 Contributing code, explanations, fixes, or translations
+- 🛠 Offering your technical help
 
 ---
 
 ## Final note
 
-Norbert to Java is not just a programming book. It is a learning path, a build path, and an open invitation to make technical knowledge more understandable, more collaborative, and more alive.
+Norbert to Java is a project born from a personal journey, from the encounter between an ancient medicine and the difficulties of learning programming. Today, it becomes a tool for learning — but it needs technical hands to grow.
+
+If you want to help on the technical side, you are welcome.
 
 ---
 
-**Happy coding!** 🚀
-
-contributing code, explanations, fixes, or translations.
-
-Final note
-Norbert to Java is not just a programming book. It is a learning path, a build path, and an open invitation to make technical knowledge more understandable, more collaborative, and more alive.
+**Happy learning!** 🚀
