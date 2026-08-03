@@ -1,22 +1,73 @@
-Voici le fichier complet `solutions.md` avec **tous les corrigés des exercices** du livre *Norbert to Java*, prêt à être copié-collé sur votre dépôt GitHub.
+Parfait ! Voici **la version anglaise complète** de `solutions.md` avec tous les corrigés des exercices, prête à être copiée-collée sur ton dépôt GitHub.
 
 ---
 
-## 📄 solutions.md — Corrigés des exercices
+# 📄 solutions.md — Exercise Solutions for Norbert to Java
 
 ```markdown
-# Solutions des exercices — Norbert to Java
+# Exercise Solutions — Norbert to Java
 
-Ce document contient les corrigés de tous les exercices du livre **Norbert to Java**.
+This document contains the complete solutions to all exercises from the book **Norbert to Java**.
 
-📖 **Livre complet** : [Norbert to Java](./livre-complet.md)  
-📦 **Code source** : [./code](./code)
+📖 **Full book**: [Norbert to Java](./livre-complet.md)  
+📦 **Source code**: [./code](./code)
 
 ---
 
-## Chapitre 1 — Hello, Java
+## How to Use This Document
 
-### Exercice 1 — Good morning!
+1. **Try the exercise yourself first** — The exercises are designed to be solved independently.
+2. **If you get stuck** — Look at the solution to understand where you went wrong.
+3. **Compare approaches** — Your solution might be different from mine. That's normal! There are often multiple ways to solve a problem.
+
+---
+
+## Table of Contents
+
+- [Chapter 1 — Hello, Java](#chapter-1--hello-java)
+- [Chapter 2 — Variables and Types](#chapter-2--variables-and-types)
+- [Chapter 3 — Operators](#chapter-3--operators)
+- [Chapter 4 — Conditions](#chapter-4--conditions)
+- [Chapter 5 — Loops](#chapter-5--loops)
+- [Chapter 6 — Arrays](#chapter-6--arrays)
+- [Chapter 7 — Methods](#chapter-7--methods)
+- [Chapter 8 — Scanner and Input](#chapter-8--scanner-and-input)
+- [Chapter 9 — Classes and Objects](#chapter-9--classes-and-objects)
+- [Chapter 10 — Constructors](#chapter-10--constructors)
+- [Chapter 11 — Encapsulation](#chapter-11--encapsulation)
+- [Chapter 12 — Static](#chapter-12--static)
+- [Chapter 13 — Lya Assistant](#chapter-13--lya-assistant)
+- [Chapter 14 — Understanding Requests](#chapter-14--understanding-requests)
+- [Chapter 15 — Exceptions and Validation](#chapter-15--exceptions-and-validation)
+- [Chapter 16 — Orders and Data Management](#chapter-16--orders-and-data-management)
+- [Chapter 17 — ArrayList](#chapter-17--arraylist)
+- [Chapter 18 — HashMap](#chapter-18--hashmap)
+- [Chapter 19 — HashSet](#chapter-19--hashset)
+- [Chapter 20 — File I/O](#chapter-20--file-io)
+- [Chapter 21 — Testing](#chapter-21--testing)
+- [Chapter 22 — Networking](#chapter-22--networking)
+- [Chapter 23 — JSON](#chapter-23--json)
+- [Chapter 24 — REST API](#chapter-24--rest-api)
+- [Chapter 25 — Web Server](#chapter-25--web-server)
+- [Chapter 26 — Threads](#chapter-26--threads)
+- [Chapter 27 — Sessions](#chapter-27--sessions)
+- [Chapter 28 — Persistent Sessions](#chapter-28--persistent-sessions)
+- [Chapter 29 — Databases](#chapter-29--databases)
+- [Chapter 30 — JPA](#chapter-30--jpa)
+- [Chapter 31 — Git](#chapter-31--git)
+- [Chapter 32 — GitHub](#chapter-32--github)
+- [Chapter 33 — Maven](#chapter-33--maven)
+- [Chapter 34 — JAR Files](#chapter-34--jar-files)
+- [Chapter 35 — Docker](#chapter-35--docker)
+- [Chapter 36 — Deployment](#chapter-36--deployment)
+- [Chapter 37 — JUnit Testing](#chapter-37--junit-testing)
+- [Chapter 38 — AI and Future](#chapter-38--ai-and-future)
+
+---
+
+## Chapter 1 — Hello, Java
+
+### Exercise 1 — Good morning!
 
 ```java
 public class Lya {
@@ -26,7 +77,7 @@ public class Lya {
 }
 ```
 
-### Exercice 2 — Deux messages
+### Exercise 2 — Two messages
 
 ```java
 public class Lya {
@@ -37,7 +88,7 @@ public class Lya {
 }
 ```
 
-### Exercice 3 — Nom et âge
+### Exercise 3 — Name and age
 
 ```java
 public class Lya {
@@ -48,7 +99,7 @@ public class Lya {
 }
 ```
 
-### Exercice 4 (Challenge) — Forme
+### Exercise 4 (Challenge) — Shape
 
 ```java
 public class Lya {
@@ -62,9 +113,9 @@ public class Lya {
 
 ---
 
-## Chapitre 2 — Variables et types
+## Chapter 2 — Variables and Types
 
-### Exercice 1 — Variable âge
+### Exercise 1 — Age variable
 
 ```java
 public class Variables {
@@ -75,7 +126,7 @@ public class Variables {
 }
 ```
 
-### Exercice 2 — Version 1.1
+### Exercise 2 — Version 1.1
 
 ```java
 public class Variables {
@@ -86,7 +137,7 @@ public class Variables {
 }
 ```
 
-### Exercice 3 — Variable de salutation
+### Exercise 3 — Greeting variable
 
 ```java
 public class Variables {
@@ -97,7 +148,7 @@ public class Variables {
 }
 ```
 
-### Exercice 4 (Challenge) — Température
+### Exercise 4 (Challenge) — Temperature
 
 ```java
 public class Variables {
@@ -110,9 +161,9 @@ public class Variables {
 
 ---
 
-## Chapitre 3 — Opérateurs
+## Chapter 3 — Operators
 
-### Exercice 1 — Moyenne
+### Exercise 1 — Average
 
 ```java
 public class Operators {
@@ -124,19 +175,19 @@ public class Operators {
 }
 ```
 
-### Exercice 2 — Majeur ?
+### Exercise 2 — Adult check
 
 ```java
 public class Operators {
     public static void main(String[] args) {
         int age = 20;
-        boolean isAdult = age > 18;
+        boolean isAdult = age >= 18;
         System.out.println("Is adult: " + isAdult);
     }
 }
 ```
 
-### Exercice 3 — &&
+### Exercise 3 — AND operator
 
 ```java
 public class Operators {
@@ -149,7 +200,7 @@ public class Operators {
 }
 ```
 
-### Exercice 4 (Challenge) — Aire
+### Exercise 4 (Challenge) — Area
 
 ```java
 public class Operators {
@@ -164,14 +215,15 @@ public class Operators {
 
 ---
 
-## Chapitre 4 — Conditions
+## Chapter 4 — Conditions
 
-### Exercice 1 — Positif, négatif ou zéro
+### Exercise 1 — Positive, negative, or zero
 
 ```java
 public class Conditions {
     public static void main(String[] args) {
         int number = -5;
+        
         if (number > 0) {
             System.out.println("Positive");
         } else if (number < 0) {
@@ -183,12 +235,13 @@ public class Conditions {
 }
 ```
 
-### Exercice 2 — Température
+### Exercise 2 — Temperature check
 
 ```java
 public class Conditions {
     public static void main(String[] args) {
         int temperature = 25;
+        
         if (temperature > 30) {
             System.out.println("Hot");
         } else if (temperature >= 20) {
@@ -200,13 +253,14 @@ public class Conditions {
 }
 ```
 
-### Exercice 3 — Connexion
+### Exercise 3 — Login check
 
 ```java
 public class Conditions {
     public static void main(String[] args) {
         boolean isLoggedIn = true;
         boolean hasPermission = true;
+        
         if (isLoggedIn && hasPermission) {
             System.out.println("Access granted");
         } else {
@@ -216,12 +270,13 @@ public class Conditions {
 }
 ```
 
-### Exercice 4 (Challenge) — Mot de passe
+### Exercise 4 (Challenge) — Password check
 
 ```java
 public class Conditions {
     public static void main(String[] args) {
         String password = "java123";
+        
         if (password.equals("java123")) {
             System.out.println("Access granted");
         } else {
@@ -233,9 +288,9 @@ public class Conditions {
 
 ---
 
-## Chapitre 5 — Boucles
+## Chapter 5 — Loops
 
-### Exercice 1 — while 1 à 10
+### Exercise 1 — while loop 1 to 10
 
 ```java
 public class Loops {
@@ -249,7 +304,7 @@ public class Loops {
 }
 ```
 
-### Exercice 2 — for 1 à 20
+### Exercise 2 — for loop 1 to 20
 
 ```java
 public class Loops {
@@ -261,7 +316,7 @@ public class Loops {
 }
 ```
 
-### Exercice 3 — Somme 1 à 100
+### Exercise 3 — Sum of 1 to 100
 
 ```java
 public class Loops {
@@ -275,7 +330,7 @@ public class Loops {
 }
 ```
 
-### Exercice 4 (Challenge) — Table de 7
+### Exercise 4 (Challenge) — Multiplication table of 7
 
 ```java
 public class Loops {
@@ -290,14 +345,15 @@ public class Loops {
 
 ---
 
-## Chapitre 6 — Tableaux
+## Chapter 6 — Arrays
 
-### Exercice 1 — Films
+### Exercise 1 — Favorite movies
 
 ```java
 public class Arrays {
     public static void main(String[] args) {
         String[] movies = {"Inception", "The Matrix", "Interstellar"};
+        
         for (String movie : movies) {
             System.out.println(movie);
         }
@@ -305,27 +361,30 @@ public class Arrays {
 }
 ```
 
-### Exercice 2 — Maximum
+### Exercise 2 — Maximum value
 
 ```java
 public class Arrays {
     public static void main(String[] args) {
         int[] numbers = {45, 23, 67, 12, 89};
         int max = numbers[0];
+        
         for (int num : numbers) {
             if (num > max) max = num;
         }
+        
         System.out.println("Max: " + max);
     }
 }
 ```
 
-### Exercice 3 — Inversion
+### Exercise 3 — Reverse array
 
 ```java
 public class Arrays {
     public static void main(String[] args) {
         int[] numbers = {1, 2, 3, 4, 5};
+        
         for (int i = numbers.length - 1; i >= 0; i--) {
             System.out.print(numbers[i] + " ");
         }
@@ -333,12 +392,14 @@ public class Arrays {
 }
 ```
 
-### Exercice 4 (Challenge) — Tri
+### Exercise 4 (Challenge) — Sort array
 
 ```java
 public class Arrays {
     public static void main(String[] args) {
         int[] numbers = {34, 7, 23, 32, 5, 62, 31, 1, 12, 8};
+        
+        // Bubble sort
         for (int i = 0; i < numbers.length - 1; i++) {
             for (int j = i + 1; j < numbers.length; j++) {
                 if (numbers[i] > numbers[j]) {
@@ -348,6 +409,7 @@ public class Arrays {
                 }
             }
         }
+        
         for (int num : numbers) {
             System.out.print(num + " ");
         }
@@ -357,36 +419,38 @@ public class Arrays {
 
 ---
 
-## Chapitre 7 — Méthodes
+## Chapter 7 — Methods
 
-### Exercice 1 — Saluer
+### Exercise 1 — Greeting with name and age
 
 ```java
 public class Methods {
     public static void main(String[] args) {
         greet("Alice", 30);
     }
+    
     public static void greet(String name, int age) {
         System.out.println("Hello, " + name + "! You are " + age + " years old.");
     }
 }
 ```
 
-### Exercice 2 — Pair/Impair
+### Exercise 2 — Even or odd
 
 ```java
 public class Methods {
     public static void main(String[] args) {
-        System.out.println(isEven(4));
-        System.out.println(isEven(7));
+        System.out.println(isEven(4)); // true
+        System.out.println(isEven(7)); // false
     }
+    
     public static boolean isEven(int number) {
         return number % 2 == 0;
     }
 }
 ```
 
-### Exercice 3 — Somme d'un tableau
+### Exercise 3 — Sum of array
 
 ```java
 public class Methods {
@@ -394,24 +458,30 @@ public class Methods {
         int[] numbers = {1, 2, 3, 4, 5};
         System.out.println("Sum: " + sumArray(numbers));
     }
+    
     public static int sumArray(int[] numbers) {
         int sum = 0;
-        for (int num : numbers) sum += num;
+        for (int num : numbers) {
+            sum += num;
+        }
         return sum;
     }
 }
 ```
 
-### Exercice 4 (Challenge) — Factorielle
+### Exercise 4 (Challenge) — Factorial
 
 ```java
 public class Methods {
     public static void main(String[] args) {
         System.out.println("Factorial of 5: " + factorial(5));
     }
+    
     public static int factorial(int n) {
         int result = 1;
-        for (int i = 1; i <= n; i++) result *= i;
+        for (int i = 1; i <= n; i++) {
+            result *= i;
+        }
         return result;
     }
 }
@@ -419,78 +489,118 @@ public class Methods {
 
 ---
 
-## Chapitre 8 — Scanner
+## Chapter 8 — Scanner and Input
 
-### Exercice 1 — Nom
+### Exercise 1 — Ask for name
 
 ```java
 import java.util.Scanner;
+
 public class Input {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        
         System.out.print("Enter your name: ");
         String name = scanner.nextLine();
         System.out.println("Hello, " + name + "!");
+        
         scanner.close();
     }
 }
 ```
 
-### Exercice 2 — Somme
+### Exercise 2 — Sum of two numbers
 
 ```java
 import java.util.Scanner;
+
 public class Input {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        
         System.out.print("Enter first number: ");
         int a = scanner.nextInt();
+        
         System.out.print("Enter second number: ");
         int b = scanner.nextInt();
+        
         System.out.println("Sum: " + (a + b));
+        
         scanner.close();
     }
 }
 ```
 
-### Exercice 3 — Positif/Négatif/Zéro
+### Exercise 3 — Positive, negative, or zero (with input)
 
 ```java
 import java.util.Scanner;
+
 public class Input {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        
         System.out.print("Enter a number: ");
         int number = scanner.nextInt();
-        if (number > 0) System.out.println("Positive");
-        else if (number < 0) System.out.println("Negative");
-        else System.out.println("Zero");
+        
+        if (number > 0) {
+            System.out.println("Positive");
+        } else if (number < 0) {
+            System.out.println("Negative");
+        } else {
+            System.out.println("Zero");
+        }
+        
         scanner.close();
     }
 }
 ```
 
-### Exercice 4 (Challenge) — Calculatrice
+### Exercise 4 (Challenge) — Simple calculator
 
 ```java
 import java.util.Scanner;
+
 public class Input {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        
         System.out.print("Enter first number: ");
         double a = scanner.nextDouble();
+        
         System.out.print("Enter operator (+, -, *, /): ");
         String operator = scanner.next();
+        
         System.out.print("Enter second number: ");
         double b = scanner.nextDouble();
+        
         double result = 0;
+        
         switch (operator) {
-            case "+": result = a + b; break;
-            case "-": result = a - b; break;
-            case "*": result = a * b; break;
-            case "/": result = a / b; break;
-            default: System.out.println("Invalid operator"); return;
+            case "+":
+                result = a + b;
+                break;
+            case "-":
+                result = a - b;
+                break;
+            case "*":
+                result = a * b;
+                break;
+            case "/":
+                if (b != 0) {
+                    result = a / b;
+                } else {
+                    System.out.println("Error: Division by zero!");
+                    scanner.close();
+                    return;
+                }
+                break;
+            default:
+                System.out.println("Invalid operator!");
+                scanner.close();
+                return;
         }
+        
         System.out.println("Result: " + result);
         scanner.close();
     }
@@ -499,15 +609,16 @@ public class Input {
 
 ---
 
-## Chapitre 9 — Classes et objets
+## Chapter 9 — Classes and Objects
 
-### Exercice 1 — Personne
+### Exercise 1 — Person class
 
 ```java
 public class Person {
     String name;
     int age;
     String city;
+    
     void display() {
         System.out.println("Name: " + name);
         System.out.println("Age: " + age);
@@ -516,13 +627,14 @@ public class Person {
 }
 ```
 
-### Exercice 2 — Livre
+### Exercise 2 — Book class
 
 ```java
 public class Book {
     String title;
     String author;
     int pages;
+    
     void display() {
         System.out.println("Title: " + title);
         System.out.println("Author: " + author);
@@ -531,13 +643,14 @@ public class Book {
 }
 ```
 
-### Exercice 3 — Voiture
+### Exercise 3 — Car class
 
 ```java
 public class Car {
     String brand;
     String model;
     int year;
+    
     void display() {
         System.out.println("Brand: " + brand);
         System.out.println("Model: " + model);
@@ -546,17 +659,25 @@ public class Car {
 }
 ```
 
-### Exercice 4 (Challenge) — Compte bancaire
+### Exercise 4 (Challenge) — BankAccount class
 
 ```java
 public class BankAccount {
     String owner;
     double balance;
-    void deposit(double amount) { balance += amount; }
-    void withdraw(double amount) {
-        if (amount <= balance) balance -= amount;
-        else System.out.println("Insufficient funds");
+    
+    void deposit(double amount) {
+        balance += amount;
     }
+    
+    void withdraw(double amount) {
+        if (amount <= balance) {
+            balance -= amount;
+        } else {
+            System.out.println("Insufficient funds");
+        }
+    }
+    
     void display() {
         System.out.println("Owner: " + owner);
         System.out.println("Balance: $" + balance);
@@ -566,74 +687,86 @@ public class BankAccount {
 
 ---
 
-## Chapitre 10 — Constructeurs
+## Chapter 10 — Constructors
 
-### Exercice 1 — Personne avec constructeur
+### Exercise 1 — Person with constructor
 
 ```java
 public class Person {
     String name;
     int age;
+    
     public Person(String name, int age) {
         this.name = name;
         this.age = age;
     }
+    
     void display() {
         System.out.println("Name: " + name + ", Age: " + age);
     }
 }
 ```
 
-### Exercice 2 — Livre avec constructeurs
+### Exercise 2 — Book with multiple constructors
 
 ```java
 public class Book {
     String title;
     String author;
     int pages;
+    
     public Book(String title, String author, int pages) {
         this.title = title;
         this.author = author;
         this.pages = pages;
     }
+    
     public Book(String title, String author) {
         this(title, author, 0);
     }
+    
     void display() {
         System.out.println("Title: " + title + ", Author: " + author + ", Pages: " + pages);
     }
 }
 ```
 
-### Exercice 3 — Voiture avec constructeur
+### Exercise 3 — Car with constructor
 
 ```java
 public class Car {
     String brand;
     String model;
     int year;
+    
     public Car(String brand, String model, int year) {
         this.brand = brand;
         this.model = model;
         this.year = year;
     }
+    
     void display() {
         System.out.println("Brand: " + brand + ", Model: " + model + ", Year: " + year);
     }
 }
 ```
 
-### Exercice 4 (Challenge) — Compte avec constructeur
+### Exercise 4 (Challenge) — BankAccount with constructor
 
 ```java
 public class BankAccount {
     String owner;
     double balance;
+    
     public BankAccount(String owner, double initialBalance) {
         this.owner = owner;
         this.balance = initialBalance;
     }
-    void deposit(double amount) { balance += amount; }
+    
+    void deposit(double amount) {
+        balance += amount;
+    }
+    
     void display() {
         System.out.println("Owner: " + owner + ", Balance: $" + balance);
     }
@@ -642,76 +775,114 @@ public class BankAccount {
 
 ---
 
-## Chapitre 11 — Encapsulation
+## Chapter 11 — Encapsulation
 
-### Exercice 1 — Personne privée
+### Exercise 1 — Private Person
 
 ```java
 public class Person {
     private String name;
     private int age;
+    
     public Person(String name, int age) {
         this.name = name;
         this.age = age;
     }
-    public String getName() { return name; }
-    public void setName(String name) {
-        if (name != null && !name.isEmpty()) this.name = name;
+    
+    public String getName() {
+        return name;
     }
-    public int getAge() { return age; }
+    
+    public void setName(String name) {
+        if (name != null && !name.isEmpty()) {
+            this.name = name;
+        }
+    }
+    
+    public int getAge() {
+        return age;
+    }
+    
     public void setAge(int age) {
-        if (age >= 0) this.age = age;
+        if (age >= 0) {
+            this.age = age;
+        }
     }
 }
 ```
 
-### Exercice 2 — Validation âge
+### Exercise 2 — Age validation
 
 ```java
 public class Person {
     private int age;
+    
     public void setAge(int age) {
-        if (age >= 0) this.age = age;
-        else System.out.println("Age cannot be negative");
+        if (age >= 0) {
+            this.age = age;
+        } else {
+            System.out.println("Age cannot be negative");
+        }
     }
 }
 ```
 
-### Exercice 3 — Produit
+### Exercise 3 — Product with validation
 
 ```java
 public class Product {
     private String name;
     private double price;
+    
     public Product(String name, double price) {
         this.name = name;
         this.price = price;
     }
-    public String getName() { return name; }
-    public double getPrice() { return price; }
+    
+    public String getName() {
+        return name;
+    }
+    
+    public double getPrice() {
+        return price;
+    }
+    
     public void setPrice(double price) {
-        if (price >= 0) this.price = price;
+        if (price >= 0) {
+            this.price = price;
+        }
     }
 }
 ```
 
-### Exercice 4 (Challenge) — Étudiant
+### Exercise 4 (Challenge) — Student with grades
 
 ```java
 import java.util.ArrayList;
+
 public class Student {
     private String name;
     private ArrayList<Double> grades = new ArrayList<>();
-    public Student(String name) { this.name = name; }
-    public void addGrade(double grade) {
-        if (grade >= 0 && grade <= 20) grades.add(grade);
+    
+    public Student(String name) {
+        this.name = name;
     }
+    
+    public void addGrade(double grade) {
+        if (grade >= 0 && grade <= 20) {
+            grades.add(grade);
+        }
+    }
+    
     public double getAverage() {
         if (grades.isEmpty()) return 0;
         double sum = 0;
-        for (double g : grades) sum += g;
+        for (double g : grades) {
+            sum += g;
+        }
         return sum / grades.size();
     }
+    
     public void display() {
         System.out.println("Student: " + name + ", Average: " + getAverage());
     }
@@ -720,19 +891,25 @@ public class Student {
 
 ---
 
-## Chapitre 12 — Static
+## Chapter 12 — Static
 
-### Exercice 1 — Compteur
+### Exercise 1 — Counter
 
 ```java
 public class Counter {
     private static int count = 0;
-    public Counter() { count++; }
-    public static int getCount() { return count; }
+    
+    public Counter() {
+        count++;
+    }
+    
+    public static int getCount() {
+        return count;
+    }
 }
 ```
 
-### Exercice 2 — Positif
+### Exercise 2 — Positive checker
 
 ```java
 public class Utils {
@@ -742,7 +919,7 @@ public class Utils {
 }
 ```
 
-### Exercice 3 — Constante
+### Exercise 3 — Constant
 
 ```java
 public class Constants {
@@ -750,15 +927,27 @@ public class Constants {
 }
 ```
 
-### Exercice 4 (Challenge) — MathUtils
+### Exercise 4 (Challenge) — MathUtils
 
 ```java
 public class MathUtils {
-    public static int add(int a, int b) { return a + b; }
-    public static int subtract(int a, int b) { return a - b; }
-    public static int multiply(int a, int b) { return a * b; }
+    public static int add(int a, int b) {
+        return a + b;
+    }
+    
+    public static int subtract(int a, int b) {
+        return a - b;
+    }
+    
+    public static int multiply(int a, int b) {
+        return a * b;
+    }
+    
     public static double divide(int a, int b) {
-        if (b == 0) { System.out.println("Cannot divide by zero"); return 0; }
+        if (b == 0) {
+            System.out.println("Cannot divide by zero");
+            return 0;
+        }
         return (double) a / b;
     }
 }
@@ -766,9 +955,9 @@ public class MathUtils {
 
 ---
 
-## Chapitre 13 — Lya
+## Chapter 13 — Lya Assistant
 
-### Exercice 1 — Ajouter des réponses
+### Exercise 1 — Add more responses
 
 ```java
 responses.put("good morning", "Good morning! How can I help you?");
@@ -776,30 +965,34 @@ responses.put("good evening", "Good evening! What can I do for you?");
 responses.put("what's up", "Not much, just waiting for your questions!");
 ```
 
-### Exercice 2 — Effacer l'historique
+### Exercise 2 — Clear history
 
 ```java
+// In the main loop:
 if (input.equalsIgnoreCase("clear")) {
     lya.clearHistory();
     System.out.println("History cleared.");
     continue;
 }
 
+// In the Lya class:
 public void clearHistory() {
     history.clear();
     System.out.println("History cleared.");
 }
 ```
 
-### Exercice 3 — Supprimer une réponse
+### Exercise 3 — Delete a response
 
 ```java
+// In the main loop:
 if (input.toLowerCase().startsWith("delete ")) {
     String key = input.substring(7).trim();
     lya.deleteResponse(key);
     continue;
 }
 
+// In the Lya class:
 public void deleteResponse(String request) {
     String clean = request.toLowerCase().trim();
     if (responses.containsKey(clean)) {
@@ -811,7 +1004,7 @@ public void deleteResponse(String request) {
 }
 ```
 
-### Exercice 4 (Challenge) — Timestamp
+### Exercise 4 (Challenge) — Timestamp in history
 
 ```java
 import java.time.LocalDateTime;
@@ -819,8 +1012,10 @@ import java.time.format.DateTimeFormatter;
 
 public void respond(String request) throws EmptyRequestException {
     // ... existing code ...
+    
     String timestamp = LocalDateTime.now()
         .format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"));
+    
     history.add("[" + timestamp + "] User: " + request);
     // ... rest of method ...
 }
@@ -828,21 +1023,21 @@ public void respond(String request) throws EmptyRequestException {
 
 ---
 
-## Chapitre 14 — Compréhension
+## Chapter 14 — Understanding Requests
 
-### Exercice 1 — Météo
+### Exercise 1 — Weather keyword
 
 ```java
 responses.put("weather", "I can check the weather for you! Try 'weather Paris'");
 ```
 
-### Exercice 2 — Ticket
+### Exercise 2 — Ticket keyword
 
 ```java
 responses.put("ticket", "I can help with tickets! Try 'ticket Alice payment issue'");
 ```
 
-### Exercice 3 — Questions en "where"
+### Exercise 3 — "Where" questions
 
 ```java
 if (cleaned.startsWith("where")) {
@@ -850,38 +1045,42 @@ if (cleaned.startsWith("where")) {
 }
 ```
 
-### Exercice 4 (Challenge) — Synonymes
+### Exercise 4 (Challenge) — Synonyms
 
 ```java
 private String findResponse(String request) {
     String cleaned = request.toLowerCase().trim();
+    
     // Check synonyms
     if (cleaned.contains("hey") || cleaned.contains("yo")) {
         return responses.get("hello");
     }
+    
     if (cleaned.contains("bye") || cleaned.contains("see you")) {
         return responses.get("goodbye");
     }
+    
     // ... existing code ...
 }
 ```
 
 ---
 
-## Chapitre 15 — Exceptions
+## Chapter 15 — Exceptions and Validation
 
-### Exercice 1 — Validation caractères
+### Exercise 1 — Validate characters
 
 ```java
 private void validateRequest(String request) throws ValidationException {
     // ... existing validation ...
+    
     if (!request.matches("^[a-zA-Z0-9\\s.,!?']+$")) {
         throw new ValidationException("Request contains invalid characters.");
     }
 }
 ```
 
-### Exercice 2 — ProfanityException
+### Exercise 2 — Profanity check
 
 ```java
 public class ProfanityException extends ValidationException {
@@ -891,6 +1090,7 @@ public class ProfanityException extends ValidationException {
 }
 
 private static final String[] PROFANITY = {"badword1", "badword2"};
+
 private void checkProfanity(String request) throws ProfanityException {
     String lower = request.toLowerCase();
     for (String word : PROFANITY) {
@@ -901,7 +1101,7 @@ private void checkProfanity(String request) throws ProfanityException {
 }
 ```
 
-### Exercice 3 — Validation learn
+### Exercise 3 — Validate learn method
 
 ```java
 public void learn(String request, String response) throws ValidationException {
@@ -911,7 +1111,7 @@ public void learn(String request, String response) throws ValidationException {
 }
 ```
 
-### Exercice 4 (Challenge) — Lettres/chiffres uniquement
+### Exercise 4 (Challenge) — Letters and spaces only
 
 ```java
 if (!request.matches("^[a-zA-Z0-9\\s]+$")) {
@@ -921,23 +1121,25 @@ if (!request.matches("^[a-zA-Z0-9\\s]+$")) {
 
 ---
 
-## Chapitre 16 — Commandes
+## Chapter 16 — Orders and Data Management
 
-### Exercice 1 — Date dans Order
+### Exercise 1 — Date in Order
 
 ```java
 import java.time.LocalDateTime;
 
 public class Order {
     private LocalDateTime createdAt;
-
+    
     public Order(int number, String client, String description) {
         // ... existing code ...
         this.createdAt = LocalDateTime.now();
     }
-
-    public LocalDateTime getCreatedAt() { return createdAt; }
-
+    
+    public LocalDateTime getCreatedAt() {
+        return createdAt;
+    }
+    
     public void display() {
         // ... existing code ...
         System.out.println("Created: " + createdAt);
@@ -945,7 +1147,7 @@ public class Order {
 }
 ```
 
-### Exercice 2 — Ticket
+### Exercise 2 — Ticket class
 
 ```java
 public class Ticket {
@@ -954,7 +1156,7 @@ public class Ticket {
     private String description;
     private String priority;
     private String status;
-
+    
     public Ticket(int number, String client, String description, String priority) {
         this.number = number;
         this.client = client;
@@ -962,19 +1164,19 @@ public class Ticket {
         this.priority = priority;
         this.status = "Open";
     }
-
+    
     public int getNumber() { return number; }
     public String getClient() { return client; }
     public String getDescription() { return description; }
     public String getPriority() { return priority; }
     public String getStatus() { return status; }
-
+    
     public void setStatus(String status) {
         if (status != null && !status.trim().isEmpty()) {
             this.status = status;
         }
     }
-
+    
     public void display() {
         System.out.println("=== Ticket #" + number + " ===");
         System.out.println("Client: " + client);
@@ -985,7 +1187,7 @@ public class Ticket {
 }
 ```
 
-### Exercice 3 — Recherche par client
+### Exercise 3 — Search by client
 
 ```java
 public ArrayList<Order> getOrdersByClient(String client) {
@@ -999,7 +1201,7 @@ public ArrayList<Order> getOrdersByClient(String client) {
 }
 ```
 
-### Exercice 4 (Challenge) — Compter par statut
+### Exercise 4 (Challenge) — Count by status
 
 ```java
 public int countOrdersByStatus(String status) {
@@ -1025,21 +1227,28 @@ public int countOrdersByPriority(String priority) {
 
 ---
 
-## Chapitre 17 — ArrayList
+## Chapter 17 — ArrayList
 
-### Exercice 1 — Films
+### Exercise 1 — Favorite movies
 
 ```java
-ArrayList<String> movies = new ArrayList<>();
-movies.add("Inception");
-movies.add("The Matrix");
-movies.add("Interstellar");
-for (String movie : movies) {
-    System.out.println(movie);
+import java.util.ArrayList;
+
+public class Movies {
+    public static void main(String[] args) {
+        ArrayList<String> movies = new ArrayList<>();
+        movies.add("Inception");
+        movies.add("The Matrix");
+        movies.add("Interstellar");
+        
+        for (String movie : movies) {
+            System.out.println(movie);
+        }
+    }
 }
 ```
 
-### Exercice 2 — Supprimer un ticket
+### Exercise 2 — Remove a ticket
 
 ```java
 public boolean removeTicket(int number) {
@@ -1055,7 +1264,7 @@ public boolean removeTicket(int number) {
 }
 ```
 
-### Exercice 3 — Compter par priorité
+### Exercise 3 — Count by priority
 
 ```java
 public int countTicketsByPriority(String priority) {
@@ -1069,9 +1278,11 @@ public int countTicketsByPriority(String priority) {
 }
 ```
 
-### Exercice 4 (Challenge) — Trier par priorité
+### Exercise 4 (Challenge) — Sort by priority
 
 ```java
+import java.util.Arrays;
+
 public void sortTicketsByPriority() {
     tickets.sort((t1, t2) -> {
         String[] priorities = {"urgent", "high", "medium", "low"};
@@ -1084,32 +1295,38 @@ public void sortTicketsByPriority() {
 
 ---
 
-## Chapitre 18 — HashMap
+## Chapter 18 — HashMap
 
-### Exercice 1 — Réponses
+### Exercise 1 — Keyword-response map
 
 ```java
-HashMap<String, String> responses = new HashMap<>();
-responses.put("hello", "Hello!");
-responses.put("help", "How can I help?");
-responses.put("goodbye", "Goodbye!");
+import java.util.HashMap;
+
+public class Responses {
+    public static void main(String[] args) {
+        HashMap<String, String> responses = new HashMap<>();
+        responses.put("hello", "Hello!");
+        responses.put("help", "How can I help?");
+        responses.put("goodbye", "Goodbye!");
+    }
+}
 ```
 
-### Exercice 2 — Récupérer une réponse
+### Exercise 2 — Retrieve a response
 
 ```java
 String response = responses.get("hello");
 System.out.println(response); // Hello!
 ```
 
-### Exercice 3 — Ajouter et remplacer
+### Exercise 3 — Add and replace
 
 ```java
 responses.put("hi", "Hi there!");
 responses.put("hello", "Hey there!"); // Replaces the old value
 ```
 
-### Exercice 4 (Challenge) — Préférences utilisateur
+### Exercise 4 (Challenge) — User preferences
 
 ```java
 HashMap<String, String> userPreferences = new HashMap<>();
@@ -1123,20 +1340,27 @@ System.out.println("Theme: " + theme);
 
 ---
 
-## Chapitre 19 — HashSet
+## Chapter 19 — HashSet
 
-### Exercice 1 — Ensemble de mots
+### Exercise 1 — Set of words
 
 ```java
-HashSet<String> words = new HashSet<>();
-words.add("apple");
-words.add("banana");
-words.add("orange");
-words.add("apple"); // Ignored
-System.out.println(words.size()); // 3
+import java.util.HashSet;
+
+public class WordSet {
+    public static void main(String[] args) {
+        HashSet<String> words = new HashSet<>();
+        words.add("apple");
+        words.add("banana");
+        words.add("orange");
+        words.add("apple"); // Ignored
+        
+        System.out.println(words.size()); // 3
+    }
+}
 ```
 
-### Exercice 2 — Vérifier avant d'ajouter
+### Exercise 2 — Check before adding
 
 ```java
 if (!words.contains("grape")) {
@@ -1144,7 +1368,7 @@ if (!words.contains("grape")) {
 }
 ```
 
-### Exercice 3 — Noms d'utilisateurs uniques
+### Exercise 3 — Unique usernames
 
 ```java
 HashSet<String> users = new HashSet<>();
@@ -1153,12 +1377,13 @@ users.add("bob");
 users.add("alice"); // Ignored
 ```
 
-### Exercice 4 (Challenge) — Commandes traitées
+### Exercise 4 (Challenge) — Processed orders
 
 ```java
 HashSet<Integer> processedOrders = new HashSet<>();
 processedOrders.add(1001);
 processedOrders.add(1002);
+
 if (!processedOrders.contains(1003)) {
     processedOrders.add(1003);
 }
@@ -1166,71 +1391,86 @@ if (!processedOrders.contains(1003)) {
 
 ---
 
-## Chapitre 20 — Fichiers
+## Chapter 20 — File I/O
 
-### Exercice 1 — Sauvegarder les commandes
+### Exercise 1 — Save orders to file
 
 ```java
-public static void saveOrders(HashMap<Integer, Order> orders, String filename) {
-    try (PrintWriter writer = new PrintWriter(new FileWriter(filename))) {
-        for (Order order : orders.values()) {
-            writer.println(order.getNumber() + "|||" +
-                          order.getClient() + "|||" +
-                          order.getDescription() + "|||" +
-                          order.getStatus() + "|||" +
-                          order.getPriority());
+import java.io.*;
+import java.util.HashMap;
+
+public class OrderStorage {
+    public static void saveOrders(HashMap<Integer, Order> orders, String filename) {
+        try (PrintWriter writer = new PrintWriter(new FileWriter(filename))) {
+            for (Order order : orders.values()) {
+                writer.println(order.getNumber() + "|||" +
+                              order.getClient() + "|||" +
+                              order.getDescription() + "|||" +
+                              order.getStatus() + "|||" +
+                              order.getPriority());
+            }
+        } catch (IOException e) {
+            System.out.println("Error saving orders: " + e.getMessage());
         }
-    } catch (IOException e) {
-        System.out.println("Error saving orders: " + e.getMessage());
     }
 }
 ```
 
-### Exercice 2 — Sauvegarder les tickets
+### Exercise 2 — Save tickets to file
 
 ```java
-public static void saveTickets(ArrayList<Ticket> tickets, String filename) {
-    try (PrintWriter writer = new PrintWriter(new FileWriter(filename))) {
-        for (Ticket ticket : tickets) {
-            writer.println(ticket.getNumber() + "|||" +
-                          ticket.getClient() + "|||" +
-                          ticket.getDescription() + "|||" +
-                          ticket.getPriority() + "|||" +
-                          ticket.getStatus());
+import java.io.*;
+import java.util.ArrayList;
+
+public class TicketStorage {
+    public static void saveTickets(ArrayList<Ticket> tickets, String filename) {
+        try (PrintWriter writer = new PrintWriter(new FileWriter(filename))) {
+            for (Ticket ticket : tickets) {
+                writer.println(ticket.getNumber() + "|||" +
+                              ticket.getClient() + "|||" +
+                              ticket.getDescription() + "|||" +
+                              ticket.getPriority() + "|||" +
+                              ticket.getStatus());
+            }
+        } catch (IOException e) {
+            System.out.println("Error saving tickets: " + e.getMessage());
         }
-    } catch (IOException e) {
-        System.out.println("Error saving tickets: " + e.getMessage());
     }
 }
 ```
 
-### Exercice 3 — Timestamp
+### Exercise 3 — Timestamp in history
 
 ```java
 import java.time.LocalDateTime;
+
 // In the respond method:
 String timestamp = LocalDateTime.now().toString();
 history.add("[" + timestamp + "] User: " + request);
 ```
 
-### Exercice 4 (Challenge) — Backup
+### Exercise 4 (Challenge) — Backup file
 
 ```java
-public static void backupFile(String filename) {
-    File source = new File(filename);
-    if (source.exists()) {
-        File backup = new File(filename + ".bak");
-        source.renameTo(backup);
-        System.out.println("Backup created: " + backup.getName());
+import java.io.File;
+
+public class BackupUtil {
+    public static void backupFile(String filename) {
+        File source = new File(filename);
+        if (source.exists()) {
+            File backup = new File(filename + ".bak");
+            source.renameTo(backup);
+            System.out.println("Backup created: " + backup.getName());
+        }
     }
 }
 ```
 
 ---
 
-## Chapitre 21 — Tests
+## Chapter 21 — Testing
 
-### Exercice 1 — Test "hello"
+### Exercise 1 — Test "hello" response
 
 ```java
 public static void testHelloResponse() {
@@ -1244,7 +1484,7 @@ public static void testHelloResponse() {
 }
 ```
 
-### Exercice 2 — Test "learn"
+### Exercise 2 — Test "learn" method
 
 ```java
 public static void testLearnMethod() {
@@ -1258,7 +1498,7 @@ public static void testLearnMethod() {
 }
 ```
 
-### Exercice 3 — Test longueur > 200
+### Exercise 3 — Test long request (> 200 chars)
 
 ```java
 public static void testLongRequest() {
@@ -1275,7 +1515,7 @@ public static void testLongRequest() {
 }
 ```
 
-### Exercice 4 (Challenge) — Test Order
+### Exercise 4 (Challenge) — Order test suite
 
 ```java
 public class TestOrder {
@@ -1285,7 +1525,7 @@ public class TestOrder {
         testOrderDisplay();
         System.out.println("All Order tests passed!");
     }
-
+    
     public static void testOrderCreation() {
         Order order = new Order(1, "Alice", "Test order");
         assert order.getNumber() == 1;
@@ -1293,14 +1533,14 @@ public class TestOrder {
         assert order.getStatus().equals("Pending");
         System.out.println("✓ Order creation test passed");
     }
-
+    
     public static void testOrderStatusUpdate() {
         Order order = new Order(1, "Alice", "Test order");
         order.setStatus("Shipped");
         assert order.getStatus().equals("Shipped");
         System.out.println("✓ Order status update test passed");
     }
-
+    
     public static void testOrderDisplay() {
         Order order = new Order(1, "Alice", "Test order");
         order.display();
@@ -1311,9 +1551,9 @@ public class TestOrder {
 
 ---
 
-## Chapitre 22 — Networking
+## Chapter 22 — Networking
 
-### Exercice 1 — JokeService
+### Exercise 1 — Joke service
 
 ```java
 public class JokeService {
@@ -1322,6 +1562,7 @@ public class JokeService {
         "Why did the Java developer wear glasses? Because he couldn't C#!",
         "What do you call a programmer who doesn't drink coffee? Decaffeinated!"
     };
+    
     public static String getRandomJoke() {
         int index = (int)(Math.random() * jokes.length);
         return jokes[index];
@@ -1329,7 +1570,7 @@ public class JokeService {
 }
 ```
 
-### Exercice 2 — QuoteService
+### Exercise 2 — Quote service
 
 ```java
 public class QuoteService {
@@ -1338,6 +1579,7 @@ public class QuoteService {
         "Code is poetry.",
         "Simplicity is the ultimate sophistication."
     };
+    
     public static String getRandomQuote() {
         int index = (int)(Math.random() * quotes.length);
         return quotes[index];
@@ -1345,9 +1587,12 @@ public class QuoteService {
 }
 ```
 
-### Exercice 3 — ConnectionCheck
+### Exercise 3 — Connection check
 
 ```java
+import java.net.HttpURLConnection;
+import java.net.URL;
+
 public class ConnectionCheck {
     public static boolean isOnline() {
         try {
@@ -1365,22 +1610,40 @@ public class ConnectionCheck {
 }
 ```
 
-### Exercice 4 (Challenge) — API météo réelle
+### Exercise 4 (Challenge) — Real weather API
 
 ```java
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.URL;
+
 public class RealWeatherService {
     private static final String API_KEY = "your-api-key-here";
     private static final String API_URL = "https://api.openweathermap.org/data/2.5/weather";
-
+    
     public static String getWeather(String city) {
         try {
             String urlString = API_URL + "?q=" + city + "&appid=" + API_KEY + "&units=metric";
             URL url = new URL(urlString);
             HttpURLConnection connection = (HttpURLConnection) url.openConnection();
             connection.setRequestMethod("GET");
-            // Parse JSON response
-            // ...
-            return "Weather for " + city + ": ...";
+            
+            BufferedReader reader = new BufferedReader(
+                new InputStreamReader(connection.getInputStream()));
+            StringBuilder response = new StringBuilder();
+            String line;
+            while ((line = reader.readLine()) != null) {
+                response.append(line);
+            }
+            reader.close();
+            connection.disconnect();
+            
+            // Parse the JSON response
+            // For a complete solution, you would extract temperature and weather description
+            
+            return "Weather for " + city + ": Check the JSON response - " + response.toString();
+            
         } catch (Exception e) {
             return "Error fetching weather: " + e.getMessage();
         }
@@ -1390,15 +1653,15 @@ public class RealWeatherService {
 
 ---
 
-## Chapitre 23 — JSON
+## Chapter 23 — JSON
 
-### Exercice 1 — JSON livre
+### Exercise 1 — Book JSON
 
 ```java
 String bookJson = "{\"title\":\"Effective Java\",\"author\":\"Joshua Bloch\",\"pages\":416}";
 ```
 
-### Exercice 2 — Extraire le titre
+### Exercise 2 — Extract title
 
 ```java
 public static String getTitle(String json) {
@@ -1406,23 +1669,27 @@ public static String getTitle(String json) {
 }
 ```
 
-### Exercice 3 — JSON de Lya
+### Exercise 3 — Lya state JSON
 
 ```java
 String state = "{\"name\":\"Lya\",\"version\":\"1.0\",\"active\":true,\"messages\":42}";
 ```
 
-### Exercice 4 (Challenge) — Extraire un tableau
+### Exercise 4 (Challenge) — Extract array from JSON
 
 ```java
+import java.util.ArrayList;
+
 public static ArrayList<String> getArray(String json, String key) {
     ArrayList<String> result = new ArrayList<>();
     String searchKey = "\"" + key + "\":";
     int start = json.indexOf(searchKey);
     if (start == -1) return result;
+    
     int bracketStart = json.indexOf("[", start);
     int bracketEnd = json.indexOf("]", bracketStart);
     if (bracketStart == -1 || bracketEnd == -1) return result;
+    
     String arrayContent = json.substring(bracketStart + 1, bracketEnd);
     String[] items = arrayContent.split(",");
     for (String item : items) {
@@ -1434,9 +1701,9 @@ public static ArrayList<String> getArray(String json, String key) {
 
 ---
 
-## Chapitre 24 — REST API
+## Chapter 24 — REST API
 
-### Exercice 1 — GET ticket
+### Exercise 1 — GET ticket
 
 ```java
 public String getTicket(int id) {
@@ -1448,7 +1715,7 @@ public String getTicket(int id) {
 }
 ```
 
-### Exercice 2 — PUT ticket
+### Exercise 2 — PUT ticket
 
 ```java
 public String updateTicket(int id, String status) {
@@ -1461,7 +1728,7 @@ public String updateTicket(int id, String status) {
 }
 ```
 
-### Exercice 3 — DELETE ticket
+### Exercise 3 — DELETE ticket
 
 ```java
 public String deleteTicket(int id) {
@@ -1473,7 +1740,7 @@ public String deleteTicket(int id) {
 }
 ```
 
-### Exercice 4 (Challenge) — Filtrer par client
+### Exercise 4 (Challenge) — Orders filtered by client
 
 ```java
 public String getOrdersByClient(String client) {
@@ -1494,9 +1761,9 @@ public String getOrdersByClient(String client) {
 
 ---
 
-## Chapitre 25 — Serveur Web
+## Chapter 25 — Web Server
 
-### Exercice 1 — Route /time
+### Exercise 1 — Route /time
 
 ```java
 if (path.equals("/time")) {
@@ -1504,7 +1771,7 @@ if (path.equals("/time")) {
 }
 ```
 
-### Exercice 2 — Route /status
+### Exercise 2 — Route /status
 
 ```java
 if (path.equals("/status")) {
@@ -1512,7 +1779,7 @@ if (path.equals("/status")) {
 }
 ```
 
-### Exercice 3 — Route /tickets/{id}
+### Exercise 3 — Route /tickets/{id}
 
 ```java
 if (path.startsWith("/tickets/")) {
@@ -1525,18 +1792,19 @@ if (path.startsWith("/tickets/")) {
 }
 ```
 
-### Exercice 4 (Challenge) — POST orders
+### Exercise 4 (Challenge) — POST orders
 
 ```java
 // In a real server, read the request body and parse the form or JSON data.
 // Then call api.createOrder(client, description, priority).
+// This would require parsing the HTTP request body.
 ```
 
 ---
 
-## Chapitre 26 — Threads
+## Chapter 26 — Threads
 
-### Exercice 1 — Route lente (3 secondes)
+### Exercise 1 — Slow route (3 seconds)
 
 ```java
 if (path.equals("/slow")) {
@@ -1549,15 +1817,16 @@ if (path.equals("/slow")) {
 }
 ```
 
-### Exercice 2 — Compteur de requêtes
+### Exercise 2 — Request counter
 
 ```java
 private static int requestCount = 0;
+
 // Inside request handler:
 requestCount++;
 ```
 
-### Exercice 3 — Route /thread
+### Exercise 3 — Route /thread
 
 ```java
 if (path.equals("/thread")) {
@@ -1565,18 +1834,28 @@ if (path.equals("/thread")) {
 }
 ```
 
-### Exercice 4 (Challenge) — File d'attente
+### Exercise 4 (Challenge) — Queue system
 
 ```java
 // Use a blocking queue and a worker thread pool.
 // This is a more advanced solution and should be implemented step by step.
+import java.util.concurrent.*;
+
+public class QueueServer {
+    private static final int MAX_WORKERS = 5;
+    private static final LinkedBlockingQueue<Runnable> taskQueue = 
+        new LinkedBlockingQueue<>();
+    private static final ThreadPoolExecutor executor = 
+        new ThreadPoolExecutor(MAX_WORKERS, MAX_WORKERS, 60L, 
+            TimeUnit.SECONDS, taskQueue);
+}
 ```
 
 ---
 
-## Chapitre 27 — Sessions
+## Chapter 27 — Sessions
 
-### Exercice 1 — Compteur de visites
+### Exercise 1 — Visit counter
 
 ```java
 public void incrementVisits() {
@@ -1586,7 +1865,7 @@ public void incrementVisits() {
 }
 ```
 
-### Exercice 2 — Commande favorite
+### Exercise 2 — Favorite command
 
 ```java
 public void setFavoriteCommand(String command) {
@@ -1594,7 +1873,7 @@ public void setFavoriteCommand(String command) {
 }
 ```
 
-### Exercice 3 — Message d'expiration
+### Exercise 3 — Expiration message
 
 ```java
 if (session.isExpired()) {
@@ -1602,53 +1881,67 @@ if (session.isExpired()) {
 }
 ```
 
-### Exercice 4 (Challenge) — Logout
+### Exercise 4 (Challenge) — Logout
 
 ```java
 public void logout(String sessionId) {
-    sessions.remove(sessionId);
+    if (sessionId != null && sessions.containsKey(sessionId)) {
+        sessions.remove(sessionId);
+        System.out.println("Session " + sessionId + " logged out.");
+    }
 }
 ```
 
 ---
 
-## Chapitre 28 — Sessions persistantes
+## Chapter 28 — Persistent Sessions
 
-### Exercice 1 — Préférences utilisateur
-
-```java
-SessionStorage.saveSession(session.getId(), session.getUsername(), "theme=dark", System.currentTimeMillis());
-```
-
-### Exercice 2 — Timestamp
+### Exercise 1 — User preferences
 
 ```java
-writer.println(sessionId + SEPARATOR + username + SEPARATOR + cartData + SEPARATOR + lastActivity);
+SessionStorage.saveSession(session.getId(), session.getUsername(), 
+    "theme=dark", System.currentTimeMillis());
 ```
 
-### Exercice 3 — Backup
+### Exercise 2 — Timestamp in session file
+
+```java
+writer.println(sessionId + SEPARATOR + username + SEPARATOR + 
+    cartData + SEPARATOR + lastActivity);
+```
+
+### Exercise 3 — Backup file
 
 ```java
 import java.nio.file.*;
 
 public class BackupUtil {
     public static void backup(String fileName) throws Exception {
-        Files.copy(Path.of(fileName), Path.of(fileName + ".bak"), StandardCopyOption.REPLACE_EXISTING);
+        Files.copy(Path.of(fileName), Path.of(fileName + ".bak"), 
+            StandardCopyOption.REPLACE_EXISTING);
     }
 }
 ```
 
-### Exercice 4 (Challenge) — Restaurer un panier
+### Exercise 4 (Challenge) — Restore cart
 
 ```java
 // Store cart contents as a comma-separated string and rebuild the list when loading.
+String[] cartItems = cartData.split(",");
+ArrayList<String> cart = new ArrayList<>();
+for (String item : cartItems) {
+    if (!item.isEmpty()) {
+        cart.add(item);
+    }
+}
+session.setData("cart", cart);
 ```
 
 ---
 
-## Chapitre 29 — Bases de données
+## Chapter 29 — Databases
 
-### Exercice 1 — Table users
+### Exercise 1 — Users table
 
 ```java
 stmt.execute("""
@@ -1660,7 +1953,7 @@ stmt.execute("""
 """);
 ```
 
-### Exercice 2 — Récupérer toutes les commandes
+### Exercise 2 — Get all orders
 
 ```java
 public ArrayList<Order> getAllOrders() throws SQLException {
@@ -1680,38 +1973,36 @@ public ArrayList<Order> getAllOrders() throws SQLException {
 }
 ```
 
-### Exercice 3 — Supprimer une commande
+### Exercise 3 — Delete an order
 
 ```java
-public void deleteOrder(int id) {
-    try (PreparedStatement stmt = connection.prepareStatement("DELETE FROM orders WHERE id = ?")) {
+public void deleteOrder(int id) throws SQLException {
+    try (PreparedStatement stmt = connection.prepareStatement(
+            "DELETE FROM orders WHERE id = ?")) {
         stmt.setInt(1, id);
         stmt.executeUpdate();
-    } catch (SQLException e) {
-        System.out.println(e.getMessage());
     }
 }
 ```
 
-### Exercice 4 (Challenge) — Mettre à jour une commande
+### Exercise 4 (Challenge) — Update an order
 
 ```java
-public void updateOrderStatus(int id, String status) {
-    try (PreparedStatement stmt = connection.prepareStatement("UPDATE orders SET status = ? WHERE id = ?")) {
+public void updateOrderStatus(int id, String status) throws SQLException {
+    try (PreparedStatement stmt = connection.prepareStatement(
+            "UPDATE orders SET status = ? WHERE id = ?")) {
         stmt.setString(1, status);
         stmt.setInt(2, id);
         stmt.executeUpdate();
-    } catch (SQLException e) {
-        System.out.println(e.getMessage());
     }
 }
 ```
 
 ---
 
-## Chapitre 30 — JPA
+## Chapter 30 — JPA
 
-### Exercice 1 — Ticket Entity
+### Exercise 1 — Ticket entity
 
 ```java
 import javax.persistence.*;
@@ -1722,37 +2013,52 @@ public class Ticket {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
+    
     private String client;
     private String description;
     private String priority;
     private String status;
-
+    
     public Ticket() {}
-
+    
     public Ticket(String client, String description, String priority) {
         this.client = client;
         this.description = description;
         this.priority = priority;
         this.status = "Open";
     }
+    
+    // Getters and setters
 }
 ```
 
-### Exercice 2 — TicketRepository
+### Exercise 2 — TicketRepository
 
 ```java
+import javax.persistence.EntityManager;
+
 public class TicketRepository {
     private EntityManager em;
-
+    
     public TicketRepository(EntityManager em) {
         this.em = em;
+    }
+    
+    public void save(Ticket ticket) {
+        em.persist(ticket);
+    }
+    
+    public Ticket findById(int id) {
+        return em.find(Ticket.class, id);
     }
 }
 ```
 
-### Exercice 3 — Find by priority
+### Exercise 3 — Find by priority
 
 ```java
+import java.util.List;
+
 public List<Ticket> findByPriority(String priority) {
     return em.createQuery("SELECT t FROM Ticket t WHERE t.priority = :priority", Ticket.class)
              .setParameter("priority", priority)
@@ -1760,23 +2066,31 @@ public List<Ticket> findByPriority(String priority) {
 }
 ```
 
-### Exercice 4 (Challenge) — Find by date range
+### Exercise 4 (Challenge) — Find by date range
 
 ```java
-// Use a query with startDate and endDate parameters on a createdAt field.
+import java.time.LocalDateTime;
+import java.util.List;
+
+public List<Ticket> findByDateRange(LocalDateTime start, LocalDateTime end) {
+    return em.createQuery("SELECT t FROM Ticket t WHERE t.createdAt BETWEEN :start AND :end", Ticket.class)
+             .setParameter("start", start)
+             .setParameter("end", end)
+             .getResultList();
+}
 ```
 
 ---
 
-## Chapitre 31 — Git
+## Chapter 31 — Git
 
-### Exercice 1 — Initialiser
+### Exercise 1 — Initialize
 
 ```bash
 git init
 ```
 
-### Exercice 2 — Trois commits
+### Exercise 2 — Three commits
 
 ```bash
 git add .
@@ -1785,7 +2099,7 @@ git commit -m "Add keyword matching"
 git commit -m "Add history storage"
 ```
 
-### Exercice 3 — Branche
+### Exercise 3 — Branch
 
 ```bash
 git checkout -b feature-help
@@ -1795,7 +2109,7 @@ git checkout main
 git merge feature-help
 ```
 
-### Exercice 4 — Historique
+### Exercise 4 — History
 
 ```bash
 git log --oneline
@@ -1803,17 +2117,17 @@ git log --oneline
 
 ---
 
-## Chapitre 32 — GitHub
+## Chapter 32 — GitHub
 
-### Exercice 1 — Git vs GitHub
+### Exercise 1 — Git vs GitHub
 
-Git tracks changes locally. GitHub hosts the repository online.
+Git tracks changes locally. GitHub hosts the repository online and enables collaboration.
 
-### Exercice 2 — Push et Pull
+### Exercise 2 — Push and Pull
 
-push sends changes to GitHub, and pull brings changes from GitHub.
+`git push` sends changes to GitHub, and `git pull` brings changes from GitHub to your local machine.
 
-### Exercice 3 — .gitignore
+### Exercise 3 — .gitignore
 
 ```
 .class
@@ -1823,9 +2137,12 @@ build/
 target/
 .db
 .sqlite
+*.iml
+.idea/
+.DS_Store
 ```
 
-### Exercice 4 — Clone et branche
+### Exercise 4 — Clone and branch
 
 ```bash
 git clone https://github.com/norbert/lya.git
@@ -1834,15 +2151,15 @@ git checkout -b feature-new
 
 ---
 
-## Chapitre 33 — Maven
+## Chapter 33 — Maven
 
-### Exercice 1 — Créer un projet Maven
+### Exercise 1 — Create Maven project
 
 ```bash
-mvn archetype:generate
+mvn archetype:generate -DgroupId=com.norbert -DartifactId=lya -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
 ```
 
-### Exercice 2 — Dépendance
+### Exercise 2 — Add dependency
 
 ```xml
 <dependency>
@@ -1853,34 +2170,41 @@ mvn archetype:generate
 </dependency>
 ```
 
-### Exercice 3 — JAR
+### Exercise 3 — Build JAR
 
 ```bash
 mvn package
 ```
 
-### Exercice 4 — Plugin JAR
+### Exercise 4 — JAR plugin
 
 ```xml
 <plugin>
     <groupId>org.apache.maven.plugins</groupId>
     <artifactId>maven-jar-plugin</artifactId>
     <version>3.3.0</version>
+    <configuration>
+        <archive>
+            <manifest>
+                <mainClass>com.norbert.lya.LyaServer</mainClass>
+            </manifest>
+        </archive>
+    </configuration>
 </plugin>
 ```
 
 ---
 
-## Chapitre 34 — JAR
+## Chapter 34 — JAR Files
 
-### Exercice 1 — JAR exécutable
+### Exercise 1 — Executable JAR
 
 ```bash
 mvn clean package
 java -jar target/lya-1.0.0.jar
 ```
 
-### Exercice 2 — Manifest
+### Exercise 2 — Manifest
 
 ```xml
 <manifest>
@@ -1888,70 +2212,121 @@ java -jar target/lya-1.0.0.jar
 </manifest>
 ```
 
-### Exercice 3 — Fat JAR
+### Exercise 3 — Fat JAR
 
 ```xml
 <!-- Use the assembly or shade plugin -->
+<plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-assembly-plugin</artifactId>
+    <version>3.5.0</version>
+    <configuration>
+        <descriptorRefs>
+            <descriptorRef>jar-with-dependencies</descriptorRef>
+        </descriptorRefs>
+        <archive>
+            <manifest>
+                <mainClass>com.norbert.lya.LyaServer</mainClass>
+            </manifest>
+        </archive>
+    </configuration>
+    <executions>
+        <execution>
+            <phase>package</phase>
+            <goals>
+                <goal>single</goal>
+            </goals>
+        </execution>
+    </executions>
+</plugin>
 ```
 
-### Exercice 4 — Script de lancement
+### Exercise 4 — Launch script
 
 ```bash
+#!/bin/bash
 java -jar target/lya-1.0.0-jar-with-dependencies.jar
 ```
 
 ---
 
-## Chapitre 35 — Docker
+## Chapter 35 — Docker
 
-### Exercice 1 — Dockerfile
+### Exercise 1 — Dockerfile
 
 ```dockerfile
 FROM openjdk:17-jdk-slim
+
 WORKDIR /app
+
 COPY target/lya-1.0.0-jar-with-dependencies.jar app.jar
+
 EXPOSE 8080
+
 ENTRYPOINT ["java", "-jar", "app.jar"]
 ```
 
-### Exercice 2 — Build et run
+### Exercise 2 — Build and run
 
 ```bash
-docker build -t lya .
-docker run -p 8080:8080 lya
+docker build -t lya:latest .
+docker run -p 8080:8080 lya:latest
 ```
 
-### Exercice 3 — Health endpoint
+### Exercise 3 — Health endpoint
 
 ```java
-if (path.equals("/health")) return "OK";
-```
-
-### Exercice 4 — Déploiement automatique
-
-Push to GitHub, connect the repo to the hosting platform, and enable auto-deploy.
-
----
-
-## Chapitre 36 — Déploiement
-
-*(Les solutions sont les mêmes que pour Docker, avec l'ajout d'une plateforme cloud comme Render ou Heroku.)*
-
----
-
-## Chapitre 37 — JUnit
-
-### Exercice 1 — Test help
-
-```java
-@Test
-void shouldReturnHelpMessage() {
-    Lya lya = new Lya();
-    assertTrue(lya.getResponse("help").contains("help"));
+if (path.equals("/health")) {
+    return "OK";
 }
 ```
 
-### Exercice 2 — Test unknown
+### Exercise 4 — Auto-deployment
+
+Push to GitHub, connect the repo to the hosting platform (Render, Heroku, etc.), and enable auto-deploy.
+
+---
+
+## Chapter 36 — Deployment
+
+The solutions are the same as for Docker, with the addition of a cloud platform like Render, Heroku, or AWS.
+
+### Render.com
+
+1. Connect GitHub account
+2. Select your repo
+3. Build Command: `mvn clean package`
+4. Start Command: `java -jar target/lya-*.jar`
+5. Deploy
+
+### Heroku
+
+```bash
+heroku create lya-app
+git push heroku main
+```
+
+---
+
+## Chapter 37 — JUnit Testing
+
+### Exercise 1 — Test help
+
+```java
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+public class LyaTest {
+    
+    @Test
+    void shouldReturnHelpMessage() {
+        Lya lya = new Lya();
+        assertTrue(lya.getResponse("help").contains("help"));
+    }
+}
+```
+
+### Exercise 2 — Test unknown command
 
 ```java
 @Test
@@ -1961,7 +2336,7 @@ void shouldHandleUnknownCommand() {
 }
 ```
 
-### Exercice 3 — Test learn
+### Exercise 3 — Test learn
 
 ```java
 @Test
@@ -1972,7 +2347,7 @@ void shouldLearnNewResponse() {
 }
 ```
 
-### Exercice 4 (Challenge) — Test validation
+### Exercise 4 (Challenge) — Test validation
 
 ```java
 @Test
@@ -1980,23 +2355,120 @@ void shouldThrowOnEmptyInput() {
     Lya lya = new Lya();
     assertThrows(EmptyRequestException.class, () -> lya.respond(""));
 }
+
+@Test
+void shouldThrowOnNullInput() {
+    Lya lya = new Lya();
+    assertThrows(EmptyRequestException.class, () -> lya.respond(null));
+}
 ```
 
 ---
 
-## Chapitre 38 — IA
+## Chapter 38 — AI and Future
 
-*(Les chapitres 38 à 50 sont des concepts plus avancés. Les exercices sont ouverts et n'ont pas de solution unique.)*
+Chapters 38+ cover more advanced concepts. The exercises are open-ended and don't have a single correct solution. Here are some possible approaches:
 
----
+### Exercise 1 — Add intent recognition
 
-© 2026 E.J.A. — Tous droits réservés.
+```java
+public class IntentRecognizer {
+    private HashMap<String, String> intents = new HashMap<>();
+    
+    public IntentRecognizer() {
+        intents.put("hello", "greeting");
+        intents.put("help", "support");
+        intents.put("weather", "weather");
+        intents.put("order", "order");
+        intents.put("ticket", "support");
+    }
+    
+    public String recognize(String request) {
+        String[] words = request.toLowerCase().split(" ");
+        for (String word : words) {
+            if (intents.containsKey(word)) {
+                return intents.get(word);
+            }
+        }
+        return "unknown";
+    }
+}
+```
+
+### Exercise 2 — Add confidence score
+
+```java
+public class LearningMemory {
+    private HashMap<String, String> knowledge = new HashMap<>();
+    private HashMap<String, Integer> confidence = new HashMap<>();
+    
+    public void learn(String request, String response) {
+        knowledge.put(request, response);
+        confidence.put(request, 1);
+    }
+    
+    public void reinforce(String request) {
+        confidence.put(request, confidence.getOrDefault(request, 0) + 1);
+    }
+    
+    public int getConfidence(String request) {
+        return confidence.getOrDefault(request, 0);
+    }
+}
+```
+
+### Exercise 3 — Feedback mechanism
+
+```java
+public void provideFeedback(String request, boolean wasHelpful) {
+    if (wasHelpful) {
+        reinforce(request);
+    } else {
+        confidence.put(request, Math.max(0, confidence.getOrDefault(request, 0) - 1));
+        if (confidence.get(request) <= 0) {
+            knowledge.remove(request);
+            confidence.remove(request);
+        }
+    }
+}
+```
+
+### Exercise 4 (Challenge) — AI API integration
+
+```java
+public class AIAssistant {
+    private static final String API_KEY = "your-api-key";
+    private static final String API_URL = "https://api.openai.com/v1/completions";
+    
+    public String askAI(String question) {
+        try {
+            URL url = new URL(API_URL);
+            HttpURLConnection connection = (HttpURLConnection) url.openConnection();
+            connection.setRequestMethod("POST");
+            connection.setRequestProperty("Authorization", "Bearer " + API_KEY);
+            connection.setRequestProperty("Content-Type", "application/json");
+            connection.setDoOutput(true);
+            
+            String body = "{\"model\":\"gpt-3.5-turbo\",\"prompt\":\"" + question + "\"}";
+            try (OutputStream os = connection.getOutputStream()) {
+                os.write(body.getBytes());
+                os.flush();
+            }
+            
+            // Read response and parse JSON
+            // ...
+            
+            return "AI response here";
+        } catch (Exception e) {
+            return "Error calling AI: " + e.getMessage();
+        }
+    }
+}
 ```
 
 ---
-`Ajout des corrigés des exercices`
 
+© 2026 E.J.A. — All rights reserved.
+```
 
 ---
-
-**C'est fait !** Tes lecteurs ont maintenant accès à tous les corrigés en une seule page. 🎉
