@@ -36,3 +36,36 @@ public class LyaV10 {
         if (ticket != null) {
             ticket.setStatus(status);
             System.out.println("Ticket #" + number + " updated to: " + status);
+        } else {
+            System.out.println("Ticket #" + number + " not found.");
+        }
+    }
+
+    public void showTickets() {
+        if (tickets.isEmpty()) {
+            System.out.println("No tickets found.");
+            return;
+        }
+        System.out.println("--- All Tickets ---");
+        for (Ticket ticket : tickets) {
+            ticket.display();
+        }
+    }
+}
+
+class ArrayListExample {
+    public static void main(String[] args) {
+        ArrayList<String> movies = new ArrayList<>();
+        movies.add("Inception");
+        movies.add("The Matrix");
+        movies.add("Interstellar");
+        System.out.println("My favorite movies:");
+        for (String movie : movies) {
+            System.out.println("- " + movie);
+        }
+        System.out.println("First movie: " + movies.get(0));
+        System.out.println("Number of movies: " + movies.size());
+        movies.remove(1);
+        System.out.println("After removal: " + movies.size() + " movies");
+    }
+}
