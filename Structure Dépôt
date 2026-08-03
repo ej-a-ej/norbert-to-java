@@ -1,0 +1,196 @@
+norbert-to-java/
+├── README.md
+├── livre-complet.md
+├── CONTRIBUTING.md
+├── LICENSE
+├── code/
+│   ├── chapter1/
+│   │   └── Lya.java
+│   ├── chapter2/
+│   │   └── LyaV1.java
+│   ├── chapter3/
+│   │   ├── Choices.java
+│   │   ├── MoreChoices.java
+│   │   └── LyaReply.java
+│   ├── chapter4/
+│   │   ├── Pushups.java
+│   │   ├── ForPushups.java
+│   │   └── InfiniteLoop.java
+│   ├── chapter5/
+│   │   ├── GroceryList.java
+│   │   └── LyaCommandsV1.java
+│   ├── chapter6/
+│   │   ├── Methods.java
+│   │   ├── Greetings.java
+│   │   ├── Calculator.java
+│   │   ├── LyaOrganized.java
+│   │   └── EvenChecker.java
+│   ├── chapter7/
+│   │   ├── Listener.java
+│   │   ├── NumberInput.java
+│   │   └── LyaInteractive.java
+│   ├── chapter8/
+│   │   ├── TrainV1.java
+│   │   ├── Station.java
+│   │   ├── LyaV2.java
+│   │   └── TestLyaV2.java
+│   ├── chapter9/
+│   │   ├── TrainV2.java
+│   │   ├── TrainV3.java
+│   │   ├── LyaV3.java
+│   │   └── TestConstructors.java
+│   ├── chapter10/
+│   │   ├── TrainV4.java
+│   │   ├── TestTrainV4.java
+│   │   └── LyaV4.java
+│   ├── chapter11/
+│   │   ├── TrainV5.java
+│   │   ├── TestTrainV5.java
+│   │   ├── Constants.java
+│   │   └── LyaV5.java
+│   ├── chapter12/
+│   │   ├── Division.java
+│   │   ├── SafeDivision.java
+│   │   ├── MultipleCatch.java
+│   │   ├── FinallyExample.java
+│   │   ├── EmptyRequestException.java
+│   │   ├── LyaV6.java
+│   │   └── TestLyaV6.java
+│   ├── chapter13/
+│   │   ├── LyaV7.java
+│   │   └── LyaApp.java
+│   ├── chapter14/
+│   │   └── LyaV7WithFindResponse.java
+│   ├── chapter15/
+│   │   ├── ValidationException.java
+│   │   ├── RequestTooLongException.java
+│   │   └── LyaV8.java
+│   ├── chapter16/
+│   │   ├── Order.java
+│   │   ├── Ticket.java
+│   │   └── LyaV9.java
+│   ├── chapter17/
+│   │   ├── LyaV10.java
+│   │   └── ArrayListExample.java
+│   ├── chapter18/
+│   │   ├── LyaV11.java
+│   │   └── HashMapExample.java
+│   ├── chapter19/
+│   │   ├── LyaV12.java
+│   │   └── HashSetExample.java
+│   ├── chapter20/
+│   │   ├── LyaStorage.java
+│   │   ├── LyaV13.java
+│   │   └── TestPersistence.java
+│   ├── chapter21/
+│   │   ├── LyaV13Test.java
+│   │   └── TestLyaV13.java
+│   ├── chapter22/
+│   │   ├── WeatherService.java
+│   │   ├── JokeService.java
+│   │   └── ConnectionCheck.java
+│   ├── chapter23/
+│   │   ├── SimpleJsonParser.java
+│   │   ├── LyaProfile.java
+│   │   └── TestJson.java
+│   ├── chapter24/
+│   │   ├── OrderV2.java
+│   │   └── LyaAPI.java
+│   ├── chapter25/
+│   │   ├── LyaWebServer.java
+│   │   └── SimpleServer.java
+│   ├── chapter26/
+│   │   ├── ClientHandler.java
+│   │   ├── MultithreadedServer.java
+│   │   └── ThreadPoolServer.java
+│   ├── chapter27/
+│   │   ├── Session.java
+│   │   ├── SessionManager.java
+│   │   ├── SessionClientHandler.java
+│   │   └── SessionServer.java
+│   ├── chapter28/
+│   │   ├── SessionStorage.java
+│   │   ├── SessionManagerV2.java
+│   │   └── SessionServerV2.java
+│   ├── chapter29/
+│   │   ├── Database.java
+│   │   └── TestDatabase.java
+│   ├── chapter30/
+│   │   ├── OrderJPA.java
+│   │   └── OrderRepositoryJPA.java
+│   ├── chapter31/
+│   │   ├── GestionClientSession.java
+│   │   └── ServeurSessions.java
+│   ├── chapter32/
+│   │   ├── ChiffrementMobile.java
+│   │   └── InterfaceMobileSecurisee.java
+│   ├── chapter33/
+│   │   └── Synchronisation.java
+│   ├── chapter34/
+│   │   └── Routes.java
+│   ├── chapter35/
+│   │   └── AnalyseurIntentions.java
+│   ├── chapter36/
+│   │   └── Apprentissage.java
+│   ├── chapter37/
+│   │   └── Tache.java
+│   └── chapter38/
+│       └── LyaImagine.java
+├── src/
+│   └── main/
+│       └── java/
+│           └── com/
+│               └── norbert/
+│                   └── lya/
+│                       ├── Lya.java
+│                       ├── LyaV1.java
+│                       ├── ... (toutes les versions)
+│                       ├── LyaApp.java
+│                       ├── LyaAPI.java
+│                       ├── LyaConfig.java
+│                       ├── LyaController.java
+│                       ├── LyaService.java
+│                       ├── LyaFinalApp.java
+│                       ├── LyaStorage.java
+│                       ├── LyaWebServer.java
+│                       ├── TrainV1.java
+│                       ├── ... (toutes les versions Train)
+│                       ├── Order.java
+│                       ├── OrderV2.java
+│                       ├── Ticket.java
+│                       ├── Session.java
+│                       ├── SessionManager.java
+│                       ├── SessionManagerV2.java
+│                       ├── SessionStorage.java
+│                       ├── Database.java
+│                       ├── Constants.java
+│                       ├── AuthService.java
+│                       ├── ResponseManager.java
+│                       ├── IntentRecognizer.java
+│                       ├── LearningMemory.java
+│                       ├── WeatherService.java
+│                       ├── JokeService.java
+│                       ├── SimpleJsonParser.java
+│                       ├── EmptyRequestException.java
+│                       ├── ValidationException.java
+│                       ├── RequestTooLongException.java
+│                       ├── ClientHandler.java
+│                       ├── MultithreadedServer.java
+│                       ├── SessionClientHandler.java
+│                       ├── ChiffrementMobile.java
+│                       ├── Synchronisation.java
+│                       ├── AnalyseurIntentions.java
+│                       ├── Apprentissage.java
+│                       └── Tache.java
+├── solutions/
+│   └── corrections.md
+├── docs/
+│   ├── intro.md
+│   ├── symbols.md
+│   └── notions.md
+└── data/
+    ├── lya_reponses.txt
+    ├── lya_commandes.txt
+    ├── lya_tickets.txt
+    ├── lya_prochain_id.txt
+    └── lya_historique.txt
