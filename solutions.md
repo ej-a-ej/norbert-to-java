@@ -2435,11 +2435,16 @@ public void provideFeedback(String request, boolean wasHelpful) {
 
 ### Exercise 4 (Challenge) — AI API integration
 
-```java
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.io.OutputStream;
+import java.net.HttpURLConnection;
+import java.net.URL;
+
 public class AIAssistant {
-    private static final String API_KEY = "your-api-key";
+    private static final String API_KEY = "your-api-key-here";
     private static final String API_URL = "https://api.openai.com/v1/completions";
-    
+
     public String askAI(String question) {
         try {
             URL url = new URL(API_URL);
@@ -2448,25 +2453,42 @@ public class AIAssistant {
             connection.setRequestProperty("Authorization", "Bearer " + API_KEY);
             connection.setRequestProperty("Content-Type", "application/json");
             connection.setDoOutput(true);
-            
-            String body = "{\"model\":\"gpt-3.5-turbo\",\"prompt\":\"" + question + "\"}";
+
+            String body = "{\"model\":\"gpt-3.5-turbo-instruct\",\"prompt\":\"" + question + "\",\"max_tokens\":150}";
             try (OutputStream os = connection.getOutputStream()) {
                 os.write(body.getBytes());
                 os.flush();
             }
-            
-            // Read response and parse JSON
-            // ...
-            
-            return "AI response here";
+
+            BufferedReader reader = new BufferedReader(
+                new InputStreamReader(connection.getInputStream()));
+            StringBuilder response = new StringBuilder();
+            String line;
+            while ((line = reader.readLine()) != null) {
+                response.append(line);
+            }
+            reader.close();
+            connection.disconnect();
+
+            // Parse JSON response
+            String json = response.toString();
+            // Extract the text from the "choices" array
+            int start = json.indexOf("\"text\":\"") + 8;
+            int end = json.indexOf("\"", start);
+            if (start > 8 && end > start) {
+                return json.substring(start, end);
+            }
+            return "Could not parse AI response";
         } catch (Exception e) {
             return "Error calling AI: " + e.getMessage();
         }
     }
-}
-```
 
----
+    public static void main(String[] args) {
+        AIAssistant assistant = new AIAssistant();
+        System.out.println(assistant.askAI("What is Java?"));
+    }
+}
 
 © 2026 E.J.A. — All rights reserved.
 ```
